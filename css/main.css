@@ -1,8 +1,15 @@
 html,body{
-    padding: 0;
+    padding-top: 10px;
     margin: 0;
-;
+
 }
+
+#navbar-nav{
+	float: right;
+	margin-right: 0;
+	justify-content: end;
+}
+
 
 
 
@@ -137,7 +144,11 @@ i.box-circle-solid{
 }
 
 
+/* navbar */
 
+.navbar-nav{
+	float: right;
+}
 
 
 
@@ -392,9 +403,38 @@ i.box-circle-solid{
 .content-half .btn{
     margin-top:20px;
 }
+/*--- three Block Panel ---*/
+.three-panel-block{
+	float: left;
+	width: 100%;
+}
+.three-panel-block i{
+	font-size: 1.5rem;
+	margin-bottom: 15px;
+}
+.three-panel-block i.box-round{
+	border-color: inherit;
+	border-width: 1px;
+	border-style:solid;
+	padding:16px;
+	border-radius: 50%;
+}
+
+/*--- Two Block Panel ---*/
+.two-panel-block{
+	float: left;
+	width: 100%;
+}
+.two-panel-block p{
+	font-size:16px;
+}
 
 
-
+/*--- Two Block Panel ---*/
+.four-panel-block{
+	float: left;
+	width:100%;
+}
 
 /* ========== Who We Are ========== */
 .widget{
